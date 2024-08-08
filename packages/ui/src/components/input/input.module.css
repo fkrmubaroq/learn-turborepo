@@ -1,0 +1,4 @@
+.input {
+  @apply border border-solid border-grey global-paragraph py-0 h-[2.375rem] px-4 text-input
+  placeholder:text-grey focus:outline-primary;
+}

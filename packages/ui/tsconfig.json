@@ -1,0 +1,9 @@
+{
+    "extends": "@tsconfig/vite-react/tsconfig.json",
+    "compilerOptions": {
+      "allowImportingTsExtensions": true
+    },
+    "include": ["."],
+    "exclude": ["dist", "build", "node_modules"]
+  }
+  

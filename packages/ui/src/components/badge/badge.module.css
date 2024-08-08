@@ -1,0 +1,29 @@
+.badge {
+  @apply absolute min-w-5 min-h-5 flex justify-center items-center  
+  rounded-full global-report-title
+  border border-solid border-white !text-white;
+}
+.variant-primary {
+  @apply bg-primary;
+}
+
+.variant-secondary {
+  @apply bg-secondary;
+}
+
+.variant-tertiary {
+  @apply bg-tertiary;
+}
+
+.position-top-right {
+  @apply -right-3 -top-3;
+}
+.position-top-left {
+  @apply -left-3 -top-3;
+}
+.position-bottom-right {
+  @apply -right-3 -bottom-3;
+}
+.position-bottom-left {
+  @apply -left-3 -bottom-3;
+}

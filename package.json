@@ -1,0 +1,23 @@
+{
+  "name": "@my-turborepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "turbo run build",
+    "concurrently": "concurrently --kill-others \"pnpm run build-c\"",
+    "build-c" : "pnpm run build --filter @my-turborepo/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "turbo": "^2.0.12"
+  },
+  "packageManager": "pnpm@9.0.6"
+}

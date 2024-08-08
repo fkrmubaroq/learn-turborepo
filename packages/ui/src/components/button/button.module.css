@@ -1,0 +1,55 @@
+.button {
+  @apply relative global-button appearance-none border cursor-pointer border-transparent border-solid;
+}
+.button:disabled {
+  @apply bg-disabled text-[#8E8F93] cursor-not-allowed border-transparent hover:bg-disabled;
+}
+
+.variant-primary {
+  @apply bg-primary hover:bg-primary-hover  text-white;
+}
+.variant-secondary {
+  @apply bg-secondary hover:bg-secondary-hover text-white;
+}
+.variant-tertiary {
+  @apply bg-tertiary hover:bg-tertiary-hover text-white;
+}
+.variant-outline-primary {
+  @apply bg-transparent hover:bg-outline-primary-hover border-primary text-primary;
+}
+.variant-outline-secondary {
+  @apply bg-transparent hover:bg-outline-secondary-hover border-secondary text-secondary;
+}
+.variant-outline-tertiary {
+  @apply bg-transparent hover:bg-outline-tertiary-hover border-tertiary text-tertiary;
+}
+
+.size-icon {
+  @apply p-8;
+}
+
+.size-sm {
+  @apply p-[.125rem] text-xs;
+}
+.size-md {
+  @apply px-16 py-8;
+}
+
+.radius-xs {
+  @apply rounded-sm;
+}
+.radius-sm {
+  @apply rounded-[.25rem];
+}
+.radius-md {
+  @apply rounded-lg;
+}
+.radius-xl {
+  @apply rounded-2xl;
+}
+.radius-full {
+  @apply rounded-full;
+}
+.radius-none {
+  @apply rounded-none;
+}
